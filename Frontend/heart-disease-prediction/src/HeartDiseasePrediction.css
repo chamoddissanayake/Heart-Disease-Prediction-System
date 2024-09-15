@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.form-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input[type="radio"],
+.form-field input[type="number"] {
+    margin-right: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-section-healthy {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0ffe0;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.result-section-healthy p {
+    font-size: 18px;
+}
+
+.result-section-unhealthy {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.result-section-unhealthy p {
+    font-size: 18px;
+}
+
+
+.radio-margin {
+    margin-right: 20px;
+}
+
+.title-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submitBtn{
+    border-radius: 10px;
+}
+
+.fill-btn-container{
+    padding-top: 20px;
+}
+
+.bold-gen{
+    font-weight: bold;
+}
+
+.loading-container{
+    padding-top: 20px;
+}
